@@ -41,6 +41,7 @@
             this.pctBoxMunicipalidad = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pctBoxMunicipalidad)).BeginInit();
             this.SuspendLayout();
             // 
@@ -169,6 +170,17 @@
             this.label4.TabIndex = 18;
             this.label4.Text = "D.N.I:";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(38, 463);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(180, 19);
+            this.label5.TabIndex = 19;
+            this.label5.Text = "Generar Contraseña:";
+            // 
             // ContribuyenteRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -176,6 +188,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(627, 705);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.pctBoxMunicipalidad);
@@ -215,5 +228,6 @@
         private System.Windows.Forms.Button btnSalir;
         public System.Windows.Forms.TextBox txboxDNI;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
